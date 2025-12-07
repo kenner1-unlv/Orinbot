@@ -1,4 +1,0 @@
-Invoking command in '/home/sauce/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sauce/ros2_ws/install/cloud_header_fixer:/opt/ros/humble /usr/bin/cmake --build /home/sauce/ros2_ws/build/point_lio -- -j12 -l12
-Invoked command in '/home/sauce/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sauce/ros2_ws/install/cloud_header_fixer:/opt/ros/humble /usr/bin/cmake --build /home/sauce/ros2_ws/build/point_lio -- -j12 -l12
-Invoking command in '/home/sauce/ros2_ws/build/point_lio': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sauce/ros2_ws/install/cloud_header_fixer:/opt/ros/humble /usr/bin/cmake --install /home/sauce/ros2_ws/build/point_lio
-Invoked command in '/home/sauce/ros2_ws/build/point_lio' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sauce/ros2_ws/install/cloud_header_fixer:/opt/ros/humble /usr/bin/cmake --install /home/sauce/ros2_ws/build/point_lio
