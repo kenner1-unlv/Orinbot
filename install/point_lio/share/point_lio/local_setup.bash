@@ -1,0 +1,1 @@
+/home/sauce/ros2_ws/build/point_lio/ament_cmake_environment_hooks/local_setup.bash

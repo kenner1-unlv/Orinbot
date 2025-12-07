@@ -1,0 +1,23 @@
+In file included from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp:50[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/Estimator.h:4[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/Estimator.cpp:2[m[K:
+/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of ‘[01m[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double][m[K’:
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:[m[K   required from ‘[01m[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3][m[K’
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:334:32:[m[K   required from ‘[01m[Kstatic MTK::SO3<_scalar, Options> MTK::SO3<_scalar, Options>::exp(const Eigen::Matrix<Type, 3, 1>&, MTK::SO3<_scalar, Options>::scalar) [with _scalar = double; int Options = 0; MTK::SO3<_scalar, Options>::scalar = double][m[K’
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:242:18:[m[K   required from ‘[01m[Kvoid MTK::SO3<_scalar, Options>::boxplus(MTK::vectview<const _scalar, MTK::SO3<_scalar, Options>::DOF>, MTK::SO3<_scalar, Options>::scalar) [with _scalar = double; int Options = 0; MTK::SO3<_scalar, Options>::scalar = double][m[K’
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/Estimator.h:38:1:[m[K   required from here
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  143 | std::pair<scalar, scalar> [01;36m[Kcos_sinc_sqrt[m[K(const scalar &x2){
+      |                           [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/SOn.hpp:83[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp:50[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/Estimator.h:4[m[K,
+                 from [01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/laserMapping.cpp:27[m[K:
+/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp: In instantiation of ‘[01m[Kstd::pair<_FIter, _FIter> MTK::cos_sinc_sqrt(const scalar&) [with scalar = double][m[K’:
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:252:52:[m[K   required from ‘[01m[Kscalar MTK::exp(MTK::vectview<scalar, dim>, MTK::vectview<const scalar, dim>, const scalar&) [with scalar = double; int n = 3][m[K’
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/esekfom.hpp:168:39:[m[K   required from ‘[01m[Kvoid esekfom::esekf<state, process_noise_dof, input, measurement, measurement_noise_dof>::predict(double&, esekfom::esekf<state, process_noise_dof, input, measurement, measurement_noise_dof>::processnoisecovariance&, const input&, bool, bool) [with state = state_output; int process_noise_dof = 30; input = input_ikfom; measurement = state_output; int measurement_noise_dof = 0; esekfom::esekf<state, process_noise_dof, input, measurement, measurement_noise_dof>::processnoisecovariance = Eigen::Matrix<double, 30, 30, 0, 30, 30>][m[K’
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/src/laserMapping.cpp:1004:46:[m[K   required from here
+[01m[K/home/sauce/ros2_ws/src/point_lio_ros2/include/../include/IKFoM/IKFoM_toolkit/esekfom/../mtk/types/../src/mtkmath.hpp:143:27:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 in GCC 10.1
+  143 | std::pair<scalar, scalar> [01;36m[Kcos_sinc_sqrt[m[K(const scalar &x2){
+      |                           [01;36m[K^~~~~~~~~~~~~[m[K

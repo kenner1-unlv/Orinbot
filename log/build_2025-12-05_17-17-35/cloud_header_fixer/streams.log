@@ -1,0 +1,24 @@
+[0.956s] Invoking command in '/home/sauce/ros2_ws/build/cloud_header_fixer': PYTHONPATH=/home/sauce/ros2_ws/build/cloud_header_fixer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sauce/ros2_ws/build/cloud_header_fixer/build --no-deps symlink_data
+[1.311s] running develop
+[1.532s] running egg_info
+[1.532s] creating cloud_header_fixer.egg-info
+[1.532s] writing cloud_header_fixer.egg-info/PKG-INFO
+[1.533s] writing dependency_links to cloud_header_fixer.egg-info/dependency_links.txt
+[1.533s] writing entry points to cloud_header_fixer.egg-info/entry_points.txt
+[1.533s] writing requirements to cloud_header_fixer.egg-info/requires.txt
+[1.533s] writing top-level names to cloud_header_fixer.egg-info/top_level.txt
+[1.533s] writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+[1.535s] reading manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+[1.536s] writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+[1.538s] running build_ext
+[1.538s] Creating /home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages/cloud-header-fixer.egg-link (link to .)
+[1.539s] Installing fix_cloud script to /home/sauce/ros2_ws/install/cloud_header_fixer/lib/cloud_header_fixer
+[1.539s] 
+[1.540s] Installed /home/sauce/ros2_ws/build/cloud_header_fixer
+[1.540s] running symlink_data
+[1.540s] creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index
+[1.540s] creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index
+[1.541s] creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages
+[1.541s] symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/resource/cloud_header_fixer -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages
+[1.541s] symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/package.xml -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/cloud_header_fixer
+[1.595s] Invoked command in '/home/sauce/ros2_ws/build/cloud_header_fixer' returned '0': PYTHONPATH=/home/sauce/ros2_ws/build/cloud_header_fixer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sauce/ros2_ws/build/cloud_header_fixer/build --no-deps symlink_data

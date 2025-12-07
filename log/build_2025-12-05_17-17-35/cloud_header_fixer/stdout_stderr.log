@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating cloud_header_fixer.egg-info
+writing cloud_header_fixer.egg-info/PKG-INFO
+writing dependency_links to cloud_header_fixer.egg-info/dependency_links.txt
+writing entry points to cloud_header_fixer.egg-info/entry_points.txt
+writing requirements to cloud_header_fixer.egg-info/requires.txt
+writing top-level names to cloud_header_fixer.egg-info/top_level.txt
+writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+reading manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages/cloud-header-fixer.egg-link (link to .)
+Installing fix_cloud script to /home/sauce/ros2_ws/install/cloud_header_fixer/lib/cloud_header_fixer
+
+Installed /home/sauce/ros2_ws/build/cloud_header_fixer
+running symlink_data
+creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index
+creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index
+creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages
+symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/resource/cloud_header_fixer -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages
+symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/package.xml -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/cloud_header_fixer

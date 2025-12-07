@@ -1,0 +1,7 @@
+[0.418s] Invoking command in '/home/sauce/ros2_ws/build/unitree_lidar_sdk': /usr/bin/cmake --build /home/sauce/ros2_ws/build/unitree_lidar_sdk -- -j12 -l12
+[0.476s] [ 30%] Built target example_lidar_serial
+[0.477s] [ 40%] Built target example_lidar_udp
+[0.477s] [ 80%] Built target set_ip_address
+[0.477s] [ 90%] Built target set_to_serial_mode
+[0.477s] [100%] Built target set_to_udp_mode
+[0.495s] Invoked command in '/home/sauce/ros2_ws/build/unitree_lidar_sdk' returned '0': /usr/bin/cmake --build /home/sauce/ros2_ws/build/unitree_lidar_sdk -- -j12 -l12

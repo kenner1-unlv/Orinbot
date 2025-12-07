@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000831] (cloud_header_fixer) JobQueued: {'identifier': 'cloud_header_fixer', 'dependencies': OrderedDict()}
+[0.001055] (point_lio) JobQueued: {'identifier': 'point_lio', 'dependencies': OrderedDict()}
+[0.001243] (unitree_lidar_ros2) JobQueued: {'identifier': 'unitree_lidar_ros2', 'dependencies': OrderedDict()}
+[0.001321] (unitree_lidar_sdk) JobQueued: {'identifier': 'unitree_lidar_sdk', 'dependencies': OrderedDict()}
+[0.001459] (cloud_header_fixer) JobStarted: {'identifier': 'cloud_header_fixer'}
+[0.011866] (point_lio) JobStarted: {'identifier': 'point_lio'}
+[0.017089] (unitree_lidar_ros2) JobStarted: {'identifier': 'unitree_lidar_ros2'}
+[0.021798] (unitree_lidar_sdk) JobStarted: {'identifier': 'unitree_lidar_sdk'}
+[0.099486] (-) TimerEvent: {}
+[0.199985] (-) TimerEvent: {}
+[0.300415] (-) TimerEvent: {}
+[0.397362] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'cmake'}
+[0.399925] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'build'}
+[0.402819] (point_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sauce/ros2_ws/build/point_lio', '--', '-j12', '-l12'], 'cwd': '/home/sauce/ros2_ws/build/point_lio', 'env': OrderedDict([('USER', 'sauce'), ('SSH_CLIENT', '192.168.0.42 53817 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sauce'), ('OLDPWD', '/home/sauce/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sauce/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sauce'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '32'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('AMENT_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sauce/ros2_ws/build/point_lio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.42 53817 192.168.0.152 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble')]), 'shell': False}
+[0.406323] (-) TimerEvent: {}
+[0.410555] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'cmake'}
+[0.413395] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'build'}
+[0.414792] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sauce/ros2_ws/build/unitree_lidar_ros2', '--', '-j12', '-l12'], 'cwd': '/home/sauce/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('USER', 'sauce'), ('SSH_CLIENT', '192.168.0.42 53817 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sauce'), ('OLDPWD', '/home/sauce/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sauce/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sauce'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '32'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('AMENT_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sauce/ros2_ws/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.42 53817 192.168.0.152 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble')]), 'shell': False}
+[0.421228] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'cmake'}
+[0.421941] (unitree_lidar_sdk) JobProgress: {'identifier': 'unitree_lidar_sdk', 'progress': 'build'}
+[0.422206] (unitree_lidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sauce/ros2_ws/build/unitree_lidar_sdk', '--', '-j12', '-l12'], 'cwd': '/home/sauce/ros2_ws/build/unitree_lidar_sdk', 'env': OrderedDict([('USER', 'sauce'), ('SSH_CLIENT', '192.168.0.42 53817 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sauce'), ('OLDPWD', '/home/sauce/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sauce/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sauce'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '32'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('AMENT_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sauce/ros2_ws/build/unitree_lidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.42 53817 192.168.0.152 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio')]), 'shell': False}
+[0.467069] (unitree_lidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_ip_address\x1b[0m\n'}
+[0.467492] (unitree_lidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_lidar_udp\x1b[0m\n'}
+[0.467607] (unitree_lidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_to_serial_mode\x1b[0m\n'}
+[0.467699] (unitree_lidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target example_lidar_serial\x1b[0m\n'}
+[0.467790] (unitree_lidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target set_to_udp_mode\x1b[0m\n'}
+[0.480766] (unitree_lidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target unitree_lidar_ros2_node\x1b[0m\n'}
+[0.485835] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_serial\n'}
+[0.486217] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target set_to_serial_mode\n'}
+[0.486429] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target set_ip_address\n'}
+[0.486544] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target example_lidar_udp\n'}
+[0.486664] (unitree_lidar_sdk) StdoutLine: {'line': b'[100%] Built target set_to_udp_mode\n'}
+[0.504820] (unitree_lidar_sdk) CommandEnded: {'returncode': 0}
+[0.506398] (-) TimerEvent: {}
+[0.522562] (unitree_lidar_sdk) JobEnded: {'identifier': 'unitree_lidar_sdk', 'rc': 0}
+[0.528524] (point_lio) StdoutLine: {'line': b'[100%] Built target pointlio_mapping\n'}
+[0.535528] (unitree_lidar_ros2) StdoutLine: {'line': b'[100%] Built target unitree_lidar_ros2_node\n'}
+[0.546264] (point_lio) CommandEnded: {'returncode': 0}
+[0.547387] (point_lio) JobProgress: {'identifier': 'point_lio', 'progress': 'install'}
+[0.562893] (point_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sauce/ros2_ws/build/point_lio'], 'cwd': '/home/sauce/ros2_ws/build/point_lio', 'env': OrderedDict([('USER', 'sauce'), ('SSH_CLIENT', '192.168.0.42 53817 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sauce'), ('OLDPWD', '/home/sauce/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sauce/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sauce'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '32'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('AMENT_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sauce/ros2_ws/build/point_lio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.42 53817 192.168.0.152 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble')]), 'shell': False}
+[0.567213] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[0.568128] (unitree_lidar_ros2) JobProgress: {'identifier': 'unitree_lidar_ros2', 'progress': 'install'}
+[0.568796] (unitree_lidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sauce/ros2_ws/build/unitree_lidar_ros2'], 'cwd': '/home/sauce/ros2_ws/build/unitree_lidar_ros2', 'env': OrderedDict([('USER', 'sauce'), ('SSH_CLIENT', '192.168.0.42 53817 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sauce'), ('OLDPWD', '/home/sauce/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/sauce/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sauce'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '32'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('AMENT_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sauce/ros2_ws/build/unitree_lidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.42 53817 192.168.0.152 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble')]), 'shell': False}
+[0.575594] (point_lio) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.576362] (point_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.576873] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/lib/point_lio/pointlio_mapping\n'}
+[0.577516] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/avia.yaml\n'}
+[0.577700] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/horizon.yaml\n'}
+[0.577881] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/mid360.yaml\n'}
+[0.578627] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/ouster64.yaml\n'}
+[0.578791] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l1.yaml\n'}
+[0.578928] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/unilidar_l2.yaml\n'}
+[0.579041] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/config/velody16.yaml\n'}
+[0.579176] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l1.launch.py\n'}
+[0.579313] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/correct_odom_unilidar_l2.launch.py\n'}
+[0.579442] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/gdb_debug_example.launch.py\n'}
+[0.579587] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_avia.launch.py\n'}
+[0.579749] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_horizon.launch.py\n'}
+[0.579915] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_mid360.launch.py\n'}
+[0.580083] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_ouster64.launch.py\n'}
+[0.580251] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l1.launch.py\n'}
+[0.580493] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.580640] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_unilidar_l2.launch.py\n'}
+[0.580748] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/launch/mapping_velody16.launch.py\n'}
+[0.580942] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz\n'}
+[0.581104] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.581251] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio\n'}
+[0.581526] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio\n'}
+[0.581674] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[0.581827] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.sh\n'}
+[0.582214] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz\n'}
+[0.582346] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv\n'}
+[0.582708] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py\n'}
+[0.582843] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/environment/path.sh\n'}
+[0.583017] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2\n'}
+[0.583125] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/environment/path.dsv\n'}
+[0.583280] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2\n'}
+[0.583383] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/local_setup.bash\n'}
+[0.583530] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.583653] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/local_setup.sh\n'}
+[0.583785] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.583886] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/local_setup.zsh\n'}
+[0.584016] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh\n'}
+[0.584118] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/local_setup.dsv\n'}
+[0.584246] (point_lio) StdoutLine: {'line': b'-- Symlinking: /home/sauce/ros2_ws/install/point_lio/share/point_lio/package.dsv\n'}
+[0.584379] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv\n'}
+[0.584485] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash\n'}
+[0.584639] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh\n'}
+[0.584742] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh\n'}
+[0.584898] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv\n'}
+[0.584996] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv\n'}
+[0.597307] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2\n'}
+[0.597576] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake\n'}
+[0.597808] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/ament_index/resource_index/packages/point_lio\n'}
+[0.598014] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake\n'}
+[0.598202] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.598324] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml\n'}
+[0.598463] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake\n'}
+[0.598610] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake\n'}
+[0.598747] (unitree_lidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node\n'}
+[0.598860] (point_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sauce/ros2_ws/install/point_lio/share/point_lio/package.xml\n'}
+[0.602059] (point_lio) CommandEnded: {'returncode': 0}
+[0.607167] (-) TimerEvent: {}
+[0.645160] (point_lio) JobEnded: {'identifier': 'point_lio', 'rc': 0}
+[0.648166] (unitree_lidar_ros2) CommandEnded: {'returncode': 0}
+[0.684571] (unitree_lidar_ros2) JobEnded: {'identifier': 'unitree_lidar_ros2', 'rc': 0}
+[0.707271] (-) TimerEvent: {}
+[0.807859] (-) TimerEvent: {}
+[0.908511] (-) TimerEvent: {}
+[0.953325] (cloud_header_fixer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sauce/ros2_ws/build/cloud_header_fixer/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sauce/ros2_ws/build/cloud_header_fixer', 'env': {'USER': 'sauce', 'SSH_CLIENT': '192.168.0.42 53817 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sauce', 'OLDPWD': '/home/sauce/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/sauce/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sauce', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '32', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sauce/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'AMENT_PREFIX_PATH': '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/home/sauce/ros2_ws/build/cloud_header_fixer', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.42 53817 192.168.0.152 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sauce/ros2_ws/build/cloud_header_fixer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sauce/ros2_ws/install/unitree_lidar_ros2:/home/sauce/ros2_ws/install/point_lio'}, 'shell': False}
+[1.008814] (-) TimerEvent: {}
+[1.109472] (-) TimerEvent: {}
+[1.210117] (-) TimerEvent: {}
+[1.310596] (-) TimerEvent: {}
+[1.312375] (cloud_header_fixer) StdoutLine: {'line': b'running develop\n'}
+[1.410876] (-) TimerEvent: {}
+[1.511537] (-) TimerEvent: {}
+[1.532548] (cloud_header_fixer) StdoutLine: {'line': b'running egg_info\n'}
+[1.533127] (cloud_header_fixer) StdoutLine: {'line': b'creating cloud_header_fixer.egg-info\n'}
+[1.533457] (cloud_header_fixer) StdoutLine: {'line': b'writing cloud_header_fixer.egg-info/PKG-INFO\n'}
+[1.533767] (cloud_header_fixer) StdoutLine: {'line': b'writing dependency_links to cloud_header_fixer.egg-info/dependency_links.txt\n'}
+[1.534090] (cloud_header_fixer) StdoutLine: {'line': b'writing entry points to cloud_header_fixer.egg-info/entry_points.txt\n'}
+[1.534335] (cloud_header_fixer) StdoutLine: {'line': b'writing requirements to cloud_header_fixer.egg-info/requires.txt\n'}
+[1.534558] (cloud_header_fixer) StdoutLine: {'line': b'writing top-level names to cloud_header_fixer.egg-info/top_level.txt\n'}
+[1.534772] (cloud_header_fixer) StdoutLine: {'line': b"writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'\n"}
+[1.536164] (cloud_header_fixer) StdoutLine: {'line': b"reading manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'\n"}
+[1.536932] (cloud_header_fixer) StdoutLine: {'line': b"writing manifest file 'cloud_header_fixer.egg-info/SOURCES.txt'\n"}
+[1.538668] (cloud_header_fixer) StdoutLine: {'line': b'running build_ext\n'}
+[1.539124] (cloud_header_fixer) StdoutLine: {'line': b'Creating /home/sauce/ros2_ws/install/cloud_header_fixer/lib/python3.10/site-packages/cloud-header-fixer.egg-link (link to .)\n'}
+[1.540105] (cloud_header_fixer) StdoutLine: {'line': b'Installing fix_cloud script to /home/sauce/ros2_ws/install/cloud_header_fixer/lib/cloud_header_fixer\n'}
+[1.540634] (cloud_header_fixer) StdoutLine: {'line': b'\n'}
+[1.541021] (cloud_header_fixer) StdoutLine: {'line': b'Installed /home/sauce/ros2_ws/build/cloud_header_fixer\n'}
+[1.541272] (cloud_header_fixer) StdoutLine: {'line': b'running symlink_data\n'}
+[1.541499] (cloud_header_fixer) StdoutLine: {'line': b'creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index\n'}
+[1.541720] (cloud_header_fixer) StdoutLine: {'line': b'creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index\n'}
+[1.541958] (cloud_header_fixer) StdoutLine: {'line': b'creating /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages\n'}
+[1.542193] (cloud_header_fixer) StdoutLine: {'line': b'symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/resource/cloud_header_fixer -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/ament_index/resource_index/packages\n'}
+[1.542417] (cloud_header_fixer) StdoutLine: {'line': b'symbolically linking /home/sauce/ros2_ws/build/cloud_header_fixer/package.xml -> /home/sauce/ros2_ws/install/cloud_header_fixer/share/cloud_header_fixer\n'}
+[1.594756] (cloud_header_fixer) CommandEnded: {'returncode': 0}
+[1.612454] (-) TimerEvent: {}
+[1.623387] (cloud_header_fixer) JobEnded: {'identifier': 'cloud_header_fixer', 'rc': 0}
+[1.625597] (-) EventReactorShutdown: {}

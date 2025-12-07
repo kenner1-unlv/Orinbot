@@ -1,0 +1,3 @@
+[console_scripts]
+fix_cloud = cloud_header_fixer.fix_cloud:main
+

@@ -1,0 +1,120 @@
+[0.015s] Invoking command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sauce/ros2_ws/src/unitree_lidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sauce/ros2_ws/install/unitree_lidar_ros2
+[0.098s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.332s] -- Detecting CXX compiler ABI info
+[0.460s] -- Detecting CXX compiler ABI info - done
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.493s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.755s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.855s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.886s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.938s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.955s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.049s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.079s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.090s] -- Looking for pthread.h
+[1.188s] -- Looking for pthread.h - found
+[1.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.286s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.287s] -- Found Threads: TRUE  
+[1.355s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.373s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.451s] -- Checking for module 'eigen3'
+[1.466s] --   Found eigen3, version 3.4.0
+[1.501s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.501s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.543s] -- Checking for module 'flann'
+[1.562s] --   Found flann, version 1.9.1
+[1.619s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[1.619s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[3.297s] -- Checking for module 'libusb-1.0'
+[3.328s] --   Found libusb-1.0, version 1.0.25
+[3.407s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[3.410s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.535s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.779s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.788s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.796s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.981s] -- Found Qhull version 8.0.2
+[4.173s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.360s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[4.361s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[4.362s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[4.363s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[4.364s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[4.365s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[4.366s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.366s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.367s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[4.368s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[4.369s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[4.370s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[4.372s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[4.373s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[4.374s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[4.375s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[4.376s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[4.377s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[4.378s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[4.379s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[4.380s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.381s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.386s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.387s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[4.387s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[4.387s] [33mCMake Warning (dev) at CMakeLists.txt:23 (find_package):
+[4.388s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[4.388s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[4.388s]   command to set the policy and suppress this warning.
+[4.388s] 
+[4.389s]   CMake variable PCL_ROOT is set to:
+[4.389s] 
+[4.389s]     /usr
+[4.389s] 
+[4.389s]   For compatibility, CMake is ignoring the variable.
+[4.390s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.390s] [0m
+[4.397s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.631s] -- Configuring done
+[4.683s] -- Generating done
+[4.698s] -- Build files have been written to: /home/sauce/ros2_ws/build/unitree_lidar_ros2
+[4.733s] Invoked command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sauce/ros2_ws/src/unitree_lidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sauce/ros2_ws/install/unitree_lidar_ros2
+[4.737s] Invoking command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sauce/ros2_ws/build/unitree_lidar_ros2 -- -j12 -l12
+[4.831s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_lidar_ros2_node.dir/src/unitree_lidar_ros2_node.cpp.o[0m
+[24.691s] [100%] [32m[1mLinking CXX executable unitree_lidar_ros2_node[0m
+[25.774s] [100%] Built target unitree_lidar_ros2_node
+[25.792s] Invoked command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sauce/ros2_ws/build/unitree_lidar_ros2 -- -j12 -l12
+[25.811s] Invoking command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sauce/ros2_ws/build/unitree_lidar_ros2
+[25.824s] -- Install configuration: ""
+[25.824s] -- Execute custom install script
+[25.825s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[25.839s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/view.rviz
+[25.853s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/launch.py
+[25.869s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/package_run_dependencies/unitree_lidar_ros2
+[25.885s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/parent_prefix_path/unitree_lidar_ros2
+[25.901s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.sh
+[25.916s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/ament_prefix_path.dsv
+[25.930s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.sh
+[25.945s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/environment/path.dsv
+[25.958s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.bash
+[25.971s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.sh
+[25.986s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.zsh
+[26.000s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/local_setup.dsv
+[26.014s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.dsv
+[26.028s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/ament_index/resource_index/packages/unitree_lidar_ros2
+[26.042s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config.cmake
+[26.055s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/cmake/unitree_lidar_ros2Config-version.cmake
+[26.070s] -- Symlinking: /home/sauce/ros2_ws/install/unitree_lidar_ros2/share/unitree_lidar_ros2/package.xml
+[26.084s] -- Up-to-date symlink: /home/sauce/ros2_ws/install/unitree_lidar_ros2/lib/unitree_lidar_ros2/unitree_lidar_ros2_node
+[26.091s] Invoked command in '/home/sauce/ros2_ws/build/unitree_lidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sauce/ros2_ws/build/unitree_lidar_ros2
