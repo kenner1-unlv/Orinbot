@@ -30,7 +30,6 @@ add_library(unilidar_sdk2::unilidar_sdk2 ALIAS unilidar_sdk2)
 install(FILES "${SDK_LIB}" DESTINATION lib)
 install(DIRECTORY "${SDK_ROOT}/include/" DESTINATION include)
 
-ament_export_targets(unilidar_sdk2 HAS_LIBRARY_TARGET)
 ament_export_include_directories("${SDK_ROOT}/include")
 ament_export_libraries(unilidar_sdk2)
 
