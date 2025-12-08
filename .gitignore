@@ -1,15 +1,52 @@
-# ROS2 build directories
+# ROS2 workspace ignores
 build/
 install/
 log/
+.colcon/
 
-# Python cache
+test_results/
+
+# VSCode and IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Python artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.egg-info/
+.venv/
+.env
 
-# VSCode
-.vscode/
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
 
-# SDK binaries
-src/*/bin/
-src/*/lib/
+# Data logs and bags
+bags/*
+!bags/.gitignore
+!bags/README.md
+pcd/*
+!pcd/README.md
+*.bag
+*.db3
+*.mcap
+*.sqlite3
+*.pcd
+*.ply
+*.csv
+
+# Notebooks and analysis outputs
+*.ipynb_checkpoints
+analysis/.ipynb_checkpoints/
+analysis/notebooks/.ipynb_checkpoints/
+
+# OS-specific
+Thumbs.db
